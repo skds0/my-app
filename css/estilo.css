@@ -1,0 +1,90 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3a3d3d;
+}
+
+.encabezado{
+    width: 900px;
+    background: darkkhaki;
+}
+
+.top{
+    background: darkseagreen;
+    display: flex;
+
+}
+
+.redes{
+    width: 70%;
+    background: dodgerblue;
+    padding: 13px;
+}
+
+.botones-top{
+    width: 30%;
+    background: floralwhite;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/******* navegacion *******/
+.navegacion{
+    background: #daddda;
+    display: flex;
+
+}
+
+.logo{
+    width: 30%;
+    padding: 13px;
+}
+
+.menu{
+    width: 70%;
+}
+
+ul{
+    padding: 10px;
+    margin: 15px;
+}
+ul li{
+    display: inline;
+    padding: 10px;
+}
+/****** baner ****/
+.baner{
+    height: 500px;
+    /*background: #000;*/
+    background-image: url('../img/aa.jpg');
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    font-size: 80px;
+    font-family: 'Rowdies', cursive;
+}
+h4{
+    padding: 10px;
+    font-size: 25px;
+}
+.btn-baner{
+    background: lightpink;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
